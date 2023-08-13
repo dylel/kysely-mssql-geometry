@@ -1,0 +1,27 @@
+{
+  "name": "kysely-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "tsx main.ts",
+    "dev:test": "vitest",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "@types/tedious": "^4.0.9",
+    "geojson": "^0.5.0",
+    "kysely": "file:./kysely-mssql-dialect",
+    "tarn": "^3.0.2",
+    "tedious": "^16.4.0",
+    "tsx": "^3.12.7",
+    "wkx": "^0.5.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.1"
+  }
+}
